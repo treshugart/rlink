@@ -34,16 +34,16 @@ Basically, do `npm link` in all packages you want to be able to link as you norm
 
 So, I actually did some research into other things that might sate my need, but none of them quite fit the bill.
 
-### feross/zelda
+### [feross/zelda](https://github.com/feross/zelda)
 
 - Strict convention for directory structure doesn't work for everyone
 - Uses symlinks which is the problem with `npm link package-name`
 
-### tfennelly/slink
+### [tfennelly/slink](https://github.com/tfennelly/slink)
 
 - Uses filesystem watchers in lieu of symlinks or Lerna-style linking
 - Requires you specify which packages you want to link manually
 
-### lerna/lerna
+### [lerna/lerna](https://github.com/lerna/lerna)
 
 - Not everyone needs a mono-repo
