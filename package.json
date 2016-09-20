@@ -1,15 +1,17 @@
 {
-  "name": "chain",
+  "name": "rlink",
   "version": "1.0.0",
-  "description": "NPM linking made simple.",
+  "description": "Reliably link local packages to any other local package for simpler development across multiple packages.",
   "main": "index.js",
+  "bin": {
+    "rlink": "bin/rlink"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Trey Shugart <treshugart@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "shelljs": "^0.7.4",
-    "skatejs": "*"
+    "shelljs": "^0.7.4"
   }
 }
