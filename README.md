@@ -13,7 +13,7 @@ Automatic, Lerna-style linking to all of your package dependencies.
 ## Install
 
 ```sh
-npm install -g rlink
+npm install -g treshugart/rlink
 ```
 
 ## Usage
